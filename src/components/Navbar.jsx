@@ -34,7 +34,6 @@ const Navbar = () => {
   return (
     <header className="bg-white sticky top-0 z-50 w-full shadow-sm">
       <div className="flex items-center justify-evenly px-2 py-2 md:py-2 transition-all duration-300">
-
         <div
           className={`transition-all duration-300 ${
             scrolled ? "h-20" : "h-20"
@@ -85,37 +84,34 @@ const Navbar = () => {
             }}
           /> */}
           <img
-  src={logo}
-  alt="Techmatics Logo"
-  className="rounded-full object-cover transition-all duration-300"
-  loading="lazy"
-  style={{
-    height:
-      isOpen && window.innerWidth < 1024
-        ? "5rem"
-        : scrolled
-        ? "5rem"
-        : "8rem",
-    width:
-      isOpen && window.innerWidth < 1024
-        ? "6rem"
-        : scrolled
-        ? "6rem"
-        : "8rem",
-    marginTop:
-      isOpen && window.innerWidth < 1024
-        ? "0.5rem"
-        : scrolled
-        ? "0rem"
-        : "1rem",
+            src={logo}
+            alt="Techmatics Logo"
+            className="rounded-full object-cover transition-all duration-300"
+            loading="lazy"
+            style={{
+              height:
+                isOpen && window.innerWidth < 1024
+                  ? "5rem"
+                  : scrolled
+                  ? "5rem"
+                  : "8rem",
+              width:
+                isOpen && window.innerWidth < 1024
+                  ? "6rem"
+                  : scrolled
+                  ? "6rem"
+                  : "8rem",
+              marginTop:
+                isOpen && window.innerWidth < 1024
+                  ? "0.5rem"
+                  : scrolled
+                  ? "0rem"
+                  : "1rem",
 
-    // 🔥 Add black circular background
-    backgroundColor: "black",
-    // borderRadius: "50%",     // <-- Circular background
-    // padding: "6px",          // Space between image & circle
-  }}
-/>
-
+              // 🔥 Add black circular background
+              backgroundColor: "black",
+            }}
+          />
         </div>
 
         <nav
@@ -161,7 +157,11 @@ const Navbar = () => {
 
         <div className="lg:hidden ml-auto z-300">
           <button onClick={() => setIsOpen(!isOpen)}>
-            {isOpen ? <X className="w-6 h-6 text-white" /> : <Menu className="w-6 h-6 text-white" />}
+            {isOpen ? (
+              <X className="w-6 h-6 text-white" />
+            ) : (
+              <Menu className="w-6 h-6 text-white" />
+            )}
           </button>
         </div>
       </div>

@@ -167,7 +167,7 @@ const ContactForm = () => {
    <div
   className={`${banner_style} w-full mx-auto event-partners-banner`}
   style={{
-    backgroundImage: "url(https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-creative-synthesis-contact-future-technology-image_1059813.jpg)",
+    backgroundImage: "url(https://starhospitals.in/build/assets/contact-caf2cbb3.webp)",
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

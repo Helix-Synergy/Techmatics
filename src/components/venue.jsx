@@ -10,11 +10,7 @@ const venueList = [
   { id: 4, name: "Shitennoji Temple" },
   { id: 5, name: "Osaka Aquarium Kaiyukan" },
   { id: 6, name: "Umeda Sky Building" },
-  // { id: 7, name: "Clarke Quay" },
-  // { id: 8, name: "Turia Gardens (Jardín del Turia)" },
-  // { id: 9, name: "Plaza de la Virgen" },
-  // { id: 10, name: "Malvarrosa Beach" },
-  // { id: 11, name: "Central Market (Mercado Central)" },
+
 ];
  
 const Venue = () => {
@@ -27,23 +23,7 @@ const Venue = () => {
       <div className="flex flex-col md:flex-row justify-between gap-4 w-full">
         {/* Description Section */}
         <div className="w-full md:w-[22vw] py-2">
-          {/* <p className="text-sm md:text-[15px] leading-[26px] md:leading-[28px]">
-            <span className="text-xl md:text-2xl font-bold text-one">Valencia, </span>
-            Spain’s third-largest city, blends historic charm with modern innovation.
-            Known for its Gothic architecture and futuristic landmarks, it’s a vibrant destination.
-          </p>
- 
-          <p className="text-sm md:text-[15px] leading-[26px] md:leading-[28px]">
-            October offers mild temperatures (17°C to 26°C / 63°F to 79°F) and minimal rain,
-            perfect for exploring. Visitors can enjoy early Fallas Festival preparations,
-            Halloween events at Oceanogràfic and Bioparc, art exhibitions,
-            and the grape harvest in the nearby wine region.
-          </p>
- 
-          <p className="text-sm md:text-[15px] leading-[26px] md:leading-[28px]">
-            With its rich culture, scenic beauty, and affordability in the off-season,
-            Valencia is the perfect host city for Foodmeet.
-          </p> */}
+         
  
           {/* Highlighted Venue List */}
           <h1 className="">Proposed Conference Venue</h1>

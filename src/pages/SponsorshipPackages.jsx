@@ -90,7 +90,7 @@ const SponsorshipPackages = () => {
     <div
   className={`${banner_style} w-full mx-auto event-partners-banner`}
   style={{
-    backgroundImage: "url(https://images.pexels.com/photos/860227/pexels-photo-860227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)",
+    backgroundImage: "url(https://img.freepik.com/free-photo/two-businessman-shake-hand-coffee-shop_1150-6402.jpg?semt=ais_hybrid&w=740&q=80)",
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}

@@ -30,7 +30,7 @@ Step into the world of innovation and excellence at the International Engineerin
       <>
         From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "}
         <Link
-          to="https://pharmatech.helixconferences.com/pharmaceutical-conference-tracks/"
+          to="/techmatics-conference-tracks/" 
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -42,79 +42,14 @@ Step into the world of innovation and excellence at the International Engineerin
     ],
   },
 
-  whyAttend: [
-    "Attending our Pharma Conferences offers unmatched opportunities for growth and global exposure. Join industry pioneers and innovators as they present groundbreaking insights.",
-    "Connect with world-class researchers and companies showcasing disruptive technology and science.",
-    "Engage with regulators, policymakers, and ethics leaders shaping the future of pharma globally.",
-    "Gain actionable knowledge on regulatory compliance, drug discovery, and therapeutic innovation.",
-    "Be part of a movement focused on shaping the next era of pharmaceutical development and access.",
-  ],
 
-  aboutHelix: [
-    "Helix Conferences has earned international recognition for organizing premium pharma and healthcare events. We design our conferences with a focus on strategic insights, regulatory trends, and scientific breakthroughs to ensure attendees leave with real-world knowledge and partnerships.",
-  ],
 
-  whoShouldAttend: [
-    "Pharma professionals and researchers",
-    "Biotech and clinical R&D experts",
-    "Regulatory affairs and compliance officers",
-    "Academicians and industry consultants",
-    "Students and early-career scientists in pharma",
-  ],
 
   join: [
-    "Join us at the 2026 PharmaTech Summit to experience the fusion of science, strategy, and solution-driven innovation. Be part of the conversations that are transforming drug discovery, safety, and delivery at scale.",
+"Join us at the 2026 Techmatics Summit to experience the fusion of technology, innovation, and real-world impact. Be part of the conversations that are transforming digital solutions, automation, and intelligent systems at scale"
   ],
 
-  themes: [
-    {
-      icon: Brain,
-      title: "Pharmacology",
-      description:
-        "Exploring Drug Action: Foundations and Frontiers in Pharmacology",
-    },
-    {
-      icon: HeartPulse,
-      title: "Pharmaceutics",
-      description: "Innovations in Drug Formulation and Delivery Systems",
-    },
-    {
-      icon: SmilePlus,
-      title: "Pharmacognosy",
-      description:
-        "Natural Products and Herbal Drug Discovery in Modern Medicine",
-    },
-    {
-      icon: Dna,
-      title: "Pharmacovigilance",
-      description:
-        "Ensuring Drug Safety: Global Perspectives in Pharmacovigilance",
-    },
-    {
-      icon: Video,
-      title: "Pharma Regulatory Affairs",
-      description:
-        "Navigating Compliance: Regulatory Affairs in a Global Market",
-    },
-    {
-      icon: Globe,
-      title: "Traditional Medicine",
-      description:
-        "Integrating Ancient Wisdom with Modern Therapeutics",
-    },
-    {
-      icon: Biohazard,
-      title: "Pharma Chemistry",
-      description:
-        "Chemical Foundations of Drug Design and Synthesis",
-    },
-    {
-      icon: Radiation,
-      title: "Pharma Analysis",
-      description:
-        "Analytical Techniques in Pharmaceutical Quality Control",
-    },
-  ],
+
 
   highlights: [
  {
@@ -166,7 +101,7 @@ const AboutPublicHealth = () => {
      <div
   className={`${banner_style} w-full mx-auto about-banner`}
   style={{
-    backgroundImage: "url('https://techmatics.helixconferences.com/wp-content/uploads/2024/12/The-Internet-of-Things-1.jpg')",
+    backgroundImage: "url('https://images.unsplash.com/photo-1531545514256-b1400bc00f31?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWJvdXQlMjB1c3xlbnwwfHwwfHx8MA%3D%3D')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -195,35 +130,7 @@ const AboutPublicHealth = () => {
         </p>
       ))}
 
-      {/* Why Attend Section */}
-      {/* <section className="mb-10 text-center w-full max-w-4xl">
-        <h2 className="text-3xl font-bold text-one mb-4">Why Attend the 2025 Oral Medicine Conference?</h2>
-        {data.whyAttend.map((para, idx) => (
-          <p key={idx} className="mb-3 text-base text-gray-700 text-center w-full">
-            {para}
-          </p>
-        ))}
-      </section> */}
-
-      {/* About Helix Section */}
-      {/* <section className="mb-10 text-center w-full max-w-4xl">
-        <h2 className="text-3xl font-bold text-one mb-4">Helix Conferences: Leading the Way in Event Organization</h2>
-        {data.aboutHelix.map((para, idx) => (
-          <p key={idx} className="mb-3 text-base text-gray-700 text-center w-full">
-            {para}
-          </p>
-        ))}
-      </section> */}
-
-      {/* Who Should Attend Section */}
-      {/* <section className="mb-10 text-center w-full max-w-4xl">
-        <h2 className="text-3xl font-bold text-one mb-4">Who Can Attend?</h2>
-        <ul className="list-disc list-inside text-base text-gray-700 text-center w-full">
-          {data.whoShouldAttend.map((item, idx) => (
-            <li key={idx} className="mb-2">{item}</li>
-          ))}
-        </ul>
-      </section> */}
+     
 
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
@@ -268,10 +175,7 @@ const AboutPublicHealth = () => {
              Business & Technology Consultants
             </h3>
           </div>
-          {/* <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
-            <GraduationCap className="h-10 w-10 text-one mb-3" />
-            <h3 className="text-lg font-semibold text-gray-800 mb-1">Students and trainees in dentistry and related fields</h3>
-          </div> */}
+        
         </div>
       </section>
 

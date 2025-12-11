@@ -73,6 +73,3 @@ const FlipClock = () => {
 
 export default FlipClock;
 
-// #1B5886 
-// #3776A1 
-// #5293BB 

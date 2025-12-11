@@ -22,10 +22,7 @@ const Carousel = () => {
       image: banner_images.banner_four,
     },
 
-    // {
-    //   id: 5,
-    //   image: banner_images.banner_five,
-    // },
+    
     
   ];
 

@@ -17,7 +17,7 @@ const Executive_members = () => {
     backgroundRepeat: "no-repeat",
   }}
 >
-        <h1 className=" text-white-600 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
+        <h1 className=" text-white text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           TECHMATICS - Panel Members
         </h1>
       </div>

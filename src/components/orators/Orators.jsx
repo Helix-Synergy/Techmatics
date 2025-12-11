@@ -9,10 +9,7 @@ const Orators = () => {
       <h1 className="text-2xl text-one md:text-3xl font-bold text-center">
         TECHMATICS - Orators
       </h1>
-      {/* <p className="w-full md:w-2/3 my-2 text-center text-sm md:text-base text-slate-600">
-        Renowned experts from across the globe sharing insights and leading the
-        conversation at PHARMATECH.
-      </p> */}
+  
 
       <div className="flex flex-col md:flex-row cursor-default gap-6 items-center justify-center mt-4">
         {orators.slice(0, 4).map((item, idx) => (
