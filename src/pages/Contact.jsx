@@ -141,7 +141,7 @@ const ContactForm = () => {
     "Global Physics Summit",
     "International Material Sciences Summit",
     "World Earth Science Summit",
-    "12th International Science & Technology Summit",
+    "12th World Quantam Technology Summit ",
     "International Conferences on Biomedical Engineering",
     "World Summit on Industrial Engineering",
     "Global Nanotechnology Summit",
@@ -378,5 +378,5 @@ const ContactForm = () => {
     </div>
   );
 };
-
+// International Science & Technology Summit
 export default ContactForm;

@@ -30,7 +30,7 @@ const Home = () => {
             World Science & Technology Summit
           </h1>
 
-          <p className="text-2xl md:text-5xl text-gray-300">TECHMATICS-2026</p>
+          <p className="text-2xl md:text-5xl text-gray-300">QUANTUMTECH-2026</p>
 
           <div className="float-end mt-4">
             <FlipClock />

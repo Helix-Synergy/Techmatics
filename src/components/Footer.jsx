@@ -7,11 +7,11 @@ import { ChevronRight, Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
   const nav_links = [
-    { name: "About", link: "/about-techmatics-conclave" },
+    { name: "About", link: "/about-Quantumtech-conclave" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/techmatics-conference-tracks/"},
-    { name: "Orators", link: "/techmatics-orators" },
-    { name: "Schedule", link: "/techmatics-event-schedule"},
+    { name: "Tracks", link: "/Quantumtech-conference-tracks/"},
+    { name: "Orators", link: "/Quantumtech-orators" },
+    { name: "Schedule", link: "/Quantumtech-event-schedule"},
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/Contact" },
@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="bg-[#A1A1A1] pt-10 p-4 rounded-xl">
           <img
             src={logo}
-            alt="Techmatics Logo"
+            alt="QUANTUMTECH Logo"
             className="h-32 w-48  sm:h-32 md:h-[180px] object-cover rounded-xl"
             loading="lazy"
           />

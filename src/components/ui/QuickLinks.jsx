@@ -32,7 +32,7 @@ const links = [
     id: 'event-schedule',
     icon: CalendarCheck,
     label: 'Schedule',
-    link: '/techmatics-event-schedule'
+    link: '/Quantumtech-event-schedule'
   },
   {
     id: 'faq',

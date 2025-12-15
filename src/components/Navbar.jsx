@@ -10,12 +10,13 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const nav_links = [
+    // Quantumtech
     { name: "Home", link: "/" },
-    { name: "About", link: "/about-techmatics-conclave" },
+    { name: "About", link: "/about-Quantumtech-conclave" },
     { name: "Executive Panel", link: "/executive-panel-members/" },
-    { name: "Tracks", link: "/techmatics-conference-tracks/" },
-    { name: "Orators", link: "/techmatics-orators" },
-    { name: "Schedule", link: "/techmatics-event-schedule" },
+    { name: "Tracks", link: "/Quantumtech-conference-tracks/" },
+    { name: "Orators", link: "/Quantumtech-orators" },
+    { name: "Schedule", link: "/Quantumtech-event-schedule" },
     { name: "Venue", link: "/venue" },
     { name: "Event Partners", link: "/event_partners" },
     { name: "Contact", link: "/contact" },
@@ -85,7 +86,7 @@ const Navbar = () => {
           /> */}
           <img
             src={logo}
-            alt="Techmatics Logo"
+            alt="QUANTUMTECH Logo"
             className="rounded-full object-cover transition-all duration-300"
             loading="lazy"
             style={{

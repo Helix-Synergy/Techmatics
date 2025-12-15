@@ -33,7 +33,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       name: "Dr. Siti Rahman",
       from: "Malaysia",
       // about: "Adjunct Professor",
-      link: "/techmatics-orators/siti-rahman"
+      link: "/Quantumtech-orators/siti-rahman"
     },
     {
       id: "maria-richards-brown",
@@ -41,7 +41,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       name: "Prof. Abdullah Aydin",
       from: "Turkey",
       // about: "Research Assistant",
-      link: "/techmatics-orators/abdullah-aydin",
+      link: "/Quantumtech-orators/abdullah-aydin",
     },
     {
       id: "rassa-pegahi",
@@ -49,7 +49,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       name: "Dr. Janani Varun",
       from: "India",
       // about: "PhD in Molecular Biology",
-      link: "/techmatics-orators/janani-varun",
+      link: "/Quantumtech-orators/janani-varun",
     },
     {
       id: "anna-w-sobanska",
@@ -57,7 +57,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
       name: "Prof. Abdeen Omer",
       from: "England",
       // about: "PhD in Organic Chemistry",
-      link: "/techmatics-orators/abdeen-omer",
+      link: "/Quantumtech-orators/abdeen-omer",
     },
     // Second row
 
@@ -67,7 +67,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
     name: "Professor Vladimir G. Chigrinov",
     from: "Hong Kong",
     about: "Professor at Hong Kong University of Science and Technology since 1999, renowned for Flat Panel Technology. Author of 6 books, 31 reviews, 333 journal papers, 718 conference presentations, and 121 patents. Editor-in-Chief of the Liquid Crystal section in Crystals journal. Recipient of Excellent Research Award (HKUST) and Slottow Owaki Prize.",
-    link: "/techmatics-orators/vladimir-g-chigrinov",
+    link: "/Quantumtech-orators/vladimir-g-chigrinov",
   },
 
   {
@@ -76,7 +76,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
     name: "Dr. Jiasheng Zhu",
     from: "China",
     about: "Assistant Researcher at Wuhu Hart Robot Technology Research Institute. Research focuses on robotic technologies in shipbuilding, digital twin systems for vessels, and dynamic performance prediction in spraying processes. Led R&D initiatives for COSCO Group and Wuhu Digang Shipyard. Holds 13 patents, 11 peer-reviewed papers, contributed to 4 provincial research programs, formulated 2 Chinese national standards for magnetic wall-climbing robots, and received 5 international robotics awards.",
-    link: "/techmatics-orators/jiasheng-zhu",
+    link: "/Quantumtech-orators/jiasheng-zhu",
   },
   {
     id: "paulo-c-de-morais",
@@ -84,7 +84,7 @@ import penouo from "../../assets/Pannel Members/Paneuo.jpg"
     name: "Prof. Paulo C. De Morais",
     from: "Brazil",
     about: "Emeritus Professor of Physics at the University of Brasília. Held academic positions in Brazil and China (Huazhong University of Science and Technology, Anhui University). Senior IEEE member and CNPq-1A research fellow. Research in nanomaterials, including magnetic fluids and quantum dots. Author of 500+ publications, 15+ patents, and 13,000+ citations. Recipient of China’s 1000 Foreign Expert award and featured in top scientist rankings (Stanford, AD Scientific Index).",
-    link: "/techmatics-orators/paulo-c-de-morais",
+    link: "/Quantumtech-orators/paulo-c-de-morais",
   },
 
   ];

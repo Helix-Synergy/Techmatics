@@ -30,7 +30,7 @@ Step into the world of innovation and excellence at the International Engineerin
       <>
         From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "}
         <Link
-          to="/techmatics-conference-tracks/" 
+          to="/Quantumtech-conference-tracks/" 
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -46,7 +46,7 @@ Step into the world of innovation and excellence at the International Engineerin
 
 
   join: [
-"Join us at the 2026 Techmatics Summit to experience the fusion of technology, innovation, and real-world impact. Be part of the conversations that are transforming digital solutions, automation, and intelligent systems at scale"
+"Join us at the 2026 QUANTUMTECH Summit to experience the fusion of technology, innovation, and real-world impact. Be part of the conversations that are transforming digital solutions, automation, and intelligent systems at scale"
   ],
 
 
@@ -113,7 +113,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-        A CONFERENCE ON TECHMATICS-2026
+        A CONFERENCE ON QUANTUMTECH-2026
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -135,7 +135,7 @@ const AboutPublicHealth = () => {
       {/* Join Section */}
       <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
-          Join the Global Community at TECHMATICS Conference 2026
+          Join the Global Community at  QUANTUMTECH Conference 2026
         </h2>
         {data.join.map((para, idx) => (
           <p

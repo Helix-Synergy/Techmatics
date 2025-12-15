@@ -43,17 +43,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/executive-panel-members/" element={<ExecutiveMembers />} />
-        <Route path="/techmatics-orators" element={<Orators />} />
-        <Route path="/about-techmatics-conclave" element={<AboutOralMed />} />
-        <Route path="/techmatics-event-schedule" element={<EventSchedule />} />
+        <Route path="/Quantumtech-orators" element={<Orators />} />
+        <Route path="/about-Quantumtech-conclave" element={<AboutOralMed />} />
+        <Route path="/Quantumtech-event-schedule" element={<EventSchedule />} />
         <Route path="/venue" element={<Venue/>}/>
         <Route path="/contact" element={<ContactForm />} />
-        <Route path="/techmatics-conference-tracks/" element={<RotatingLogos />} />
+        <Route path="/Quantumtech-conference-tracks/" element={<RotatingLogos />} />
         <Route path="/abstract-submission" element={<AbstractSubmission />} />
         <Route path="/brochure-download" element={<BrochureDownload />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/event_partners" element={<SponsorshipPackages />} />
-        <Route path="/techmatics-orators/:id" element={<OratorDetails />} />
+        <Route path="/Quantumtech-orators/:id" element={<OratorDetails />} />
         <Route path="/executive-panel-members/:id" element={<EpmTemplate />} />
       </Routes>
       <Footer />

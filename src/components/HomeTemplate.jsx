@@ -17,7 +17,7 @@ const HomeTemplate = () => {
       <EpmsAbout />
       <Tracks />
       <Orators />
-      <EventSchedule height={50} name="View Full Schedule" link="/techmatics-event-schedule" />
+      <EventSchedule height={50} name="View Full Schedule" link="/Quantumtech-event-schedule" />
       <Venue />
       <Partners />
     </>

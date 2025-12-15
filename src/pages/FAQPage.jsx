@@ -1,30 +1,30 @@
 import React, { useState } from "react";
 
 const faqLinks = {
-  tracks: "/techmatics-conference-tracks/",
+  tracks: "/Quantumtech-conference-tracks/",
   abstractSubmission: "/abstract-submission",
-  schedule: "/techmatics-event-schedule",
+  schedule: "/Quantumtech-event-schedule",
   email: "mailto:hello@helixconferences.com",
 
 };
 
 export const faqData = [
   {
-    question: "What is Techmatics 2026?",
+    question: "What is QUANTUMTECH-2026?",
     answer:
-      "Techmatics 2026, officially known as the “Global Technology & Innovation Conference” (Techmatics-2026), is a major international technology event organized by Helix Conferences. It brings together Tech Professionals, Innovators, Researchers, and Industry Leaders to discuss breakthroughs across modern technologies.",
+      "QUANTUMTECH-2026, officially known as the “World Science & Technology Summit” (QUANTUMTECH-2026), is a major international technology event organized by Helix Conferences. It brings together Tech Professionals, Innovators, Researchers, and Industry Leaders to discuss breakthroughs across modern technologies.",
   },
   {
-    question: "When and where will Techmatics 2026 take place?",
+    question: "When and where will QUANTUMTECH-2026 take place?",
     answer: "The conference will be held virtually on Sep 24-25, 2026.",
   },
   {
-    question: "What are the highlights of Techmatics 2026?",
+    question: "What are the highlights of the World Quantum Technology Summit?",
     answer:
       "Keynote sessions, innovation showcases, expert-led workshops, live tech demos, and networking with global industry specialists.",
   },
   {
-    question: "What conference tracks are featured at Techmatics 2026?",
+    question: "What conference tracks are featured at the World Quantum Technology Summit?",
     answer: (
       <>
         You can explore the full list of tracks here:{" "}
@@ -34,7 +34,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          Techmatics 2026 Tracks
+          QUANTUMTECH-2026 Tracks
         </a>
         .
       </>
@@ -53,7 +53,7 @@ export const faqData = [
     ),
   },
   {
-    question: "How can I submit an abstract for Techmatics 2026?",
+    question: "How can I submit an abstract for QUANTUMTECH-2026?",
     answer: (
       <>
         You can submit your abstract{" "}
@@ -85,7 +85,7 @@ export const faqData = [
       "Presentation durations typically range from 15–20 minutes. Final timings will be shared after abstract review.",
   },
   {
-    question: "Who will be attending Techmatics 2026?",
+    question: "Who will be attending the World Quantum Technology Summit?",
     answer:
       "Tech professionals, researchers, scientists, founders, engineers, innovators, and industry executives from around the world.",
   },
