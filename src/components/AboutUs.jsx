@@ -1,5 +1,5 @@
 import React from "react";
-import about_img from "../assets/about_img.jpg";
+import about_img from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const AboutUs = () => {
@@ -22,7 +22,7 @@ const AboutUs = () => {
           the Future of Humanity
         </h1>
         <p className="text-base my-2">
-          Impact of AI, robotics, IoT, and digital technologies on society,
+          Impact of AI, Robotics, IoT, and Digital Technologies on society,
           ethics, and human evolution. Smart city infrastructure, urban
           planning, sustainable energy, mobility, and environmental tech. Focus:
           Data security, digital identity, privacy laws, and new cybersecurity

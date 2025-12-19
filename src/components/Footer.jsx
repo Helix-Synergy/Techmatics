@@ -22,13 +22,15 @@ const Footer = () => {
 
       {/* Grid 1 */}
       <div className="w-full md:w-1/4 flex flex-col mt-[10px] items-center md:items-start text-center md:text-left gap-4">
-        <div className="bg-[#A1A1A1] pt-10 p-4 rounded-xl">
+        <div className=" pt-10 p-4 rounded-xl">
           <img
             src={logo}
             alt="QUANTUMTECH Logo"
             className="h-32 w-48  sm:h-32 md:h-[180px] object-cover rounded-xl"
             loading="lazy"
           />
+          <br />
+          <p>Innovations in QuantumTech: Connecting the World Through Knowledge and Breakthrough Technologies</p>
         </div>
       </div>
 

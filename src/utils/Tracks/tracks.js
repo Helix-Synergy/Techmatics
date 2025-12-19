@@ -65,26 +65,38 @@ import quantum from "../../assets/track_icons/software-application.png";
 import solar from "../../assets/track_icons/solar-energy.png";
 import network from "../../assets/track_icons/networking.png";
 import digital from "../../assets/track_icons/software-application.png";
-
+import agriculture from "../../assets/track_icons/agriculture.png"
+import crypto from "../../assets/track_icons/cryptography.png"
+import optics from "../../assets/track_icons/internet.png"
+import software1 from "../../assets/track_icons/development.png"
+import communication1  from "../../assets/track_icons/meeting.png"
+import dna from "../../assets/track_icons/dna.png"
+import modern from "../../assets/track_icons/modernization.png"
+import applications from "../../assets/track_icons/application.png"
+import atom from "../../assets/track_icons/atom.png"
+import education from "../../assets/track_icons/online-education.png"
+import roboto from "../../assets/track_icons/robot (1).png"
 export const tracks = [
-  { name: "Artificial Intelligence", icon: robot },
-  { name: "Information Technology", icon: software },
+  { name: "Quantum AI", icon: robot },
+  { name: "Core Quantum Science", icon: software },
   { name: "Machine Learning", icon: brain },
-  { name: "Chemical Engineering", icon: chemical },
-  { name: "Robotics & Automation", icon:  Robotics },
-  { name: "Aerospace Engineering", icon: Aero },
-  { name: "Industrial Engineering", icon: Industrial },
-  { name: "Automobile Engineering", icon: Auto },
-  { name: "Civil Engineering", icon: civil },
-  { name: "Cybersecurity & Data Protection", icon: cyber },
-  { name: "Renewable Energy", icon: energy },
-  { name: "Mechanical Engineering", icon: mech },
-  { name: "Space System", icon:space },
-  { name: "Space Exploration Technologies", icon: sta },
-  { name: "Human Computer Interaction", icon: human },
-  { name: "Quantum Computing", icon: quantum },
-  { name: "Power Energy and Systems", icon: solar },
-  { name: "Network Security", icon: network },
+  { name: "Cryptography & Cybersecurity", icon: crypto },
+  { name: "Quantum Computation", icon:  Robotics },
+  { name: "Optics & Photonics", icon: optics },
+  { name: "Software Devolpment", icon: software1 },
+  { name: "Communication & Networking", icon: communication1 },
+  { name: "Quantum Biology", icon: dna },
+  { name: "Quantum Sensing and Metrology", icon: cyber },
+  { name: "Quantum Chemistry", icon: energy },
+  { name: "Modern Spectroscopy", icon: modern },
+  { name: "Quantum Applications", icon:applications },
+  { name: "Quantum Cosmology", icon: atom },
+  { name: "Materials & Devices", icon: human },
+  { name: "Industry & Future", icon:Industrial  },
+  // { name: "Quantum Cosmology", icon: solar },
+  { name: "Quantum Agriculture", icon: agriculture },
+ { name: "Quantum Education & Training", icon: education },
+ { name: "Robotics & Automation", icon: roboto },
   //   { name: "Digital Health", icon: digital_health },
   //   { name: "Phytotherapy", icon: phytotherapy },
 ];
